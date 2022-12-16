@@ -1,0 +1,35 @@
+.form{
+    border: 1px solid gray;
+    box-shadow: 2px 0 3px gray, -2px 0 3px gray, 0 2px 3px gray, 0 -2px 3px gray;
+    width:33%;
+    margin-left: 33%;
+    margin-top: 100px;
+    padding:50px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.form input[type = 'password' ],input[type = 'text']{
+    padding: 5px;
+    border-radius: 5px;
+    width:80%;
+}
+
+.form input[type = 'submit']{
+    background-color:rgb(123, 234, 123) ;
+    padding: 2px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(122, 127, 122);
+    width:33%;
+}
+
+.form span {
+    color: red;
+}
+
+.form input[type = 'submit']:hover{
+    background-color: rgb(0, 170, 255);
+    color: white;
+    width:33%;
+}

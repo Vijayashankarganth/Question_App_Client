@@ -1,0 +1,19 @@
+.navigation{
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(16, 155, 155);
+    font-size: large;
+
+}
+.navigation span{
+    font-size: 150%;
+    color: white;
+}
+.link{
+    margin-top: 7px;
+    float:right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+   
+}

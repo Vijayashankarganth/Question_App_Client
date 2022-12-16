@@ -1,0 +1,83 @@
+.question_form{
+    position: relative;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.userLogout{
+    position: absolute;
+    right: 0;
+    top: 0px;
+    background-color: red;
+    color: white;
+    border:1px solid red;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.question_form textarea {
+
+    width: 40%;
+    border-radius:10px;
+    padding: 10px;
+    background-color: lavender;
+}
+.question_form form {
+    text-align: center;
+}
+.question_form input{
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    border-radius: 5px;
+}
+
+.question_form input:hover{
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 110%;
+}
+
+.user_questions{
+    position: relative;
+    border: 2px solid rgb(86, 166, 236);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 10px 15px;
+}
+.user_questions:hover{
+    box-shadow: 2px 2px 3px;
+}
+.user_questions p{
+    font-size: 130%;
+}
+.question_form h5{
+    text-align: center;
+}
+.user_questions span{
+    position: absolute;
+    right: 10px;
+}
+.user_questions button {
+    background-color: rgba(2, 167, 193, 0.815);
+    color: white;
+    border: 1px solid rgba(2, 167, 193, 0.815) ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.question_left{
+    width:48%;
+    
+}
+
+.question_right{
+    position: absolute;
+    right: 0px;
+    width: 48%;
+    top: 0;
+}
+

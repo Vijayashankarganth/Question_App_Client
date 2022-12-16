@@ -1,0 +1,55 @@
+.admin {
+    margin-top: 20px;
+
+}
+
+.logout {
+    float: right;
+    margin-top: -40px;
+    border-radius: 5px;
+    background-color: red;
+    border: 1px solid red;
+    font-weight: bold;
+    color: white;
+    padding: 2px 5px;
+}
+
+.questions h5{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.questions .question{
+    border:2px solid rgba(25, 107, 195, 0.874);
+    margin-top: 15px;
+    width: 70%;
+    margin-left: 15%;
+    position: relative;
+    padding: 10px 30px;
+    background-color: rgba(203, 233, 246, 0.504);
+    border-radius: 15px;
+}
+
+.question .details {
+       display: inline;
+
+}
+.question button {
+    background-color: rgba(2, 167, 193, 0.815);
+    color: white;
+    border: 1px solid rgba(2, 167, 193, 0.815) ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.details span {
+    position: absolute;
+    right: 20px ;
+}
+
+.details input[type = 'checkbox']{
+    margin-left: 33%;
+}
+
+.questions .question:hover {
+        box-shadow: 3px 3px 4px grey ;
+}
